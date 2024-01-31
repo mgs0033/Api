@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', async function(){
-    // Llamar a obtenerDatosRickAndMorty al cargar la página
     await obtenerDatosRickAndMorty();
 
     document.querySelector('#siguientePagina').addEventListener('click', async function() {
